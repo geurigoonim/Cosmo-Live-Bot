@@ -1,0 +1,17 @@
+{
+  "name": "cosmo-live-discord-bot",
+  "version": "1.0.0",
+  "description": "Discord bot for announcing COSMO LIVE events",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "db:push": "drizzle-kit push"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^1.0.2",
+    "discord.js": "^14.23.2",
+    "drizzle-kit": "^0.31.5",
+    "drizzle-orm": "^0.44.6",
+    "ws": "^8.18.3"
+  }
+}
